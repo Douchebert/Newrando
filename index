@@ -67,7 +67,7 @@ class OutputGenerator:
         result = self._reduce_noise(noise)
         
         # Final cleanup
-        return result[:6][::-1]  # Reverse back to get "neocap"
+        return result[:6][::-1]  
 
 def main():
     generator = OutputGenerator()
